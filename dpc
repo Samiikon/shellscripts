@@ -1,0 +1,8 @@
+#!/bin/sh
+if [ -d __pycache__ ]; then
+    echo "Deleting __pycache__ folder..."
+    rm -rf __pycache__
+else
+    echo "Cannot delete, __pycache__ folder doesn't exist!"
+fi
+echo "Done!"
