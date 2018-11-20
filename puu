@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ "$1" -gt "0" ]
+then
+    tree -L "$1"
+else
+    echo "Invalid argument!"
+fi
